@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+}
+
+.feedback {
+  color: red;
+  font-size: 0.9em;
+}
+
+.slideshow img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tabs {
+  margin-top: 20px;
+}
+
+.tab-content {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.tab-content.active {
+  display: block;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
